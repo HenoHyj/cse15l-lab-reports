@@ -7,4 +7,4 @@ Try Italic: _Woohooo!_
 
 > Blockquote
 
-Get some beautiful pictures: ![Image](https://www.pixiv.net/artworks/95490649)
+This is a website: ![Link](https://www.pixiv.net/artworks/95490649)
