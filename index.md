@@ -1,8 +1,6 @@
 Hello!
 This is my second week of cse15l lab.
 
-Not sure what to put in now.
-
 Try Italic: _Woohooo!_
 Try Bold: **Bold**	
 
@@ -34,6 +32,14 @@ Horizontal rule:
 ```
 public static main(String[] args){
   System.out.println("I'm having CSE15L Lab")
+}
+
+```
+
+```
+\\I'm writing this part in my VS Code!
+public static main(String[] args){
+  System.out.println("Writing code in a code block in a IDE")
 }
 
 ```
