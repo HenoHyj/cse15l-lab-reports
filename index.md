@@ -14,7 +14,7 @@ Heading 2
 > Blockquote
 
 This is a website: [Link](https://ucsd-cse15l-w22.github.io/)
-Image: ![Image](https://i.pximg.net/img-original/img/2022/01/13/02/28/22/95490649_p0.png)
+Image: ![Image](https://pbs.twimg.com/media/FI6AEM4VkAIp-qH?format=jpg&name=large)
 
 Horizontal rule:
 
