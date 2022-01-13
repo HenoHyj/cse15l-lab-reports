@@ -4,6 +4,12 @@ This is my second week of cse15l lab.
 Not sure what to put in now.
 
 Try Italic: _Woohooo!_
+Try Bold: **Bold**	
+
+# Heading 1
+
+Heading 2
+---------
 
 > Blockquote
 
@@ -13,4 +19,12 @@ Horizontal rule:
 
 ***
 
-Why there's a grey line above me?
+* List
+* List
+* List
+
+1) One
+2) Two
+3) Three
+
+'this is a bracket'
