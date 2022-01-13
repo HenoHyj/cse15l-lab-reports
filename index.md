@@ -28,3 +28,10 @@ Horizontal rule:
 3) Three
 
 `this is a bracket`
+
+```
+public static main(String[] args){
+  System.out.println("I'm having CSE15L Lab")
+}
+
+```
