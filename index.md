@@ -8,3 +8,9 @@ Try Italic: _Woohooo!_
 > Blockquote
 
 This is a website: [Link](https://ucsd-cse15l-w22.github.io/)
+
+Horizontal rule:
+
+***
+
+Why there's a grey line above me?
