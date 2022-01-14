@@ -4,7 +4,9 @@ This is my second week of cse15l lab.
 Try Italic: _Woohooo!_
 Try Bold: **Bold**	
 
-# Heading 1
+# Web Reports:
+
+[CSE15L Lab Report 1 - Week 2](https://henohyj.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
 Heading 2
 ---------
