@@ -13,9 +13,10 @@ Heading 2
 
 > Blockquote
 
-This is a website: [Link](https://ucsd-cse15l-w22.github.io/)
+This is a website to the course's webpage: [Link](https://ucsd-cse15l-w22.github.io/)
 
 Image: ![Image](https://pbs.twimg.com/media/FI6AEM4VkAIp-qH?format=jpg&name=large)
+
 
 Horizontal rule:
 
