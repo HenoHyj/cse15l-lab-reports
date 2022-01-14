@@ -19,7 +19,7 @@ Type the command cs15lwi22zz@ieng6.ucsd.edu:~/, and remember to replace the “z
 
 Then it should display something like this:
 
-![pic](cse15l-lab-reports/report1 images/1.png)
+![pic](report1 images\1.png)
 
 Then, type in your password of your account, it’s normal that you tap your keyboard but nothing shows up, just type in the password and press enter.
 
