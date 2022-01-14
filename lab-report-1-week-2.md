@@ -19,20 +19,20 @@ Type the command cs15lwi22zz@ieng6.ucsd.edu:~/, and remember to replace the “z
 
 Then it should display something like this:
 
-![pic](https://github.com/HenoHyj/cse15l-lab-reports/blob/main/report1%20images/1.png)
+![pic](report1 images/1.png)
 
 Then, type in your password of your account, it’s normal that you tap your keyboard but nothing shows up, just type in the password and press enter.
 
-![pic](https://github.com/HenoHyj/cse15l-lab-reports/blob/main/report1%20images/2.png)
+![pic](report1 images/2.png)
 
 If you see similar messages above, it means that you successfully connect to the remote server.
 
 
 # Trying Some Commands:
 
-![pic](https://github.com/HenoHyj/cse15l-lab-reports/blob/main/report1%20images/3.png)
+![pic](report1 images/3.png)
 
-![pic](https://github.com/HenoHyj/cse15l-lab-reports/blob/main/report1%20images/4.png)
+![pic](report1 images/4.png)
 
 You can try playing around with some commands like me.
 
@@ -43,18 +43,18 @@ Next, you will learn how to copy a file from your pc to the server, by using the
 
 (Remember to use “exit” or Ctrl+D to return to your device)
 
-![pic](https://github.com/HenoHyj/cse15l-lab-reports/blob/main/report1%20images/5.png)
+![pic](report1 images/5.png)
 
 And log back into the server to check the file:
 
-![pic](https://github.com/HenoHyj/cse15l-lab-reports/blob/main/report1%20images/6.png)
+![pic](report1 images/6.png)
 
 Now you can see I successfully copied a file “index.md” from my pc to the remote server
 
 
 You can also run code on the server, just type in javac and java like on your pc:
 
-![pic](https://github.com/HenoHyj/cse15l-lab-reports/blob/main/report1%20images/7.png)
+![pic](report1 images/7.png)
 
 This WhereAmI.java is a file I previously put in, and it prints out some information about the device you are using.
 
@@ -66,11 +66,11 @@ You will find every time if you want to communicate to the server from your pc, 
 
 If you are Windows system, please definitely follow what I did following:
 
-![pic](https://github.com/HenoHyj/cse15l-lab-reports/blob/main/report1%20images/8.png)
+![pic](report1 images/8.png)
 
 Please directly copy the path from your explorer or it cannot correctly recognize the file path.
 
-![pic](https://github.com/HenoHyj/cse15l-lab-reports/blob/main/report1%20images/9.png)
+![pic](report1 images/9.png)
 
 
 Then, you log back into the server to create a new directory by using the following command:
@@ -78,15 +78,15 @@ Then, you log back into the server to create a new directory by using the follow
 
 Then go back on the client (your pc) to run this command
 
-![pic](https://github.com/HenoHyj/cse15l-lab-reports/blob/main/report1%20images/10.png)
+![pic](report1 images/10.png)
 
 # Optimizing Remote Running:
 
 Now you can see that you are no longer need type your password every time to communicate with the server from the client:
 
-![pic](https://github.com/HenoHyj/cse15l-lab-reports/blob/main/report1%20images/11.png)
+![pic](report1 images/11.png)
 
 
 (You can also use semicolons to divide several commands that you want to run in the same line)
 
-![pic](https://github.com/HenoHyj/cse15l-lab-reports/blob/main/report1%20images/12.png)
+![pic](report1 images/12.png)
