@@ -1,4 +1,4 @@
-__Cool Picture__: ![World Map](https://github.com/HenoHyj/cse15l-lab-reports/blob/main/Image1.jpg)
+__Cool Picture__: ![World Map](Image1.jpg)
 
 ```
 Cool Link:
