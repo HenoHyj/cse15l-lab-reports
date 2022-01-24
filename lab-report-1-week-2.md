@@ -94,7 +94,10 @@ Then it will ask you to set a passphrase, follow its instruction and type your o
 
 Here's the extra steps for Windows system:
 Type in the following commands in sequence: 
-```Get-Service ssh-agent | Set-Service -StartupType Manual``` ```Start-Service ssh-agent``` ```Get-Service ssh-agent``` ```ssh-add C:\Users\Username\.ssh\id_rsa```
+```Get-Service ssh-agent | Set-Service -StartupType Manual``` 
+```Start-Service ssh-agent``` 
+```Get-Service ssh-agent``` 
+```ssh-add C:\Users\Username\.ssh\id_rsa```
 and type in the password you just set when it asks you for the passphrase
 ![pic](report1 images/9.png)
 
