@@ -11,6 +11,8 @@ Cool Link:
 # Installing VS Code:
 
 Google “VS Code”, find the official website, and download the .exe file of corresponding controlling system to your computer. Then click it and follow the steps to complete the installation.
+This is what Visual Studio Code's official website looks like:
+![pic](report1 images/0.png)
 Here's the link for downloading Win64x version VS Code:
 [VS Code Download](https://code.visualstudio.com/docs/?dv=win64user)
 
@@ -36,11 +38,22 @@ If you see similar messages above, it means that you successfully connect to the
 
 # Trying Some Commands:
 
+You can try playing around with some commands like me:
+```
+ls 
+
+mkdir hello
+
+cd ..  or  cd ~
+
+cp ssh-key.txt hello
+
+```
 ![pic](report1 images/3.png)
 
 ![pic](report1 images/4.png)
 
-You can try playing around with some commands like me.
+
 
 
 # Moving Files with scp:
@@ -48,6 +61,9 @@ You can try playing around with some commands like me.
 Next, you will learn how to copy a file from your pc to the server, by using the “scp” command.
 
 (Remember to use “exit” or Ctrl+D to return to your device)
+```
+scp filename cs15lwi22zz@ieng6.ucsd.edu:~/
+```
 
 ![pic](report1 images/5.png)
 
