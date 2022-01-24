@@ -43,30 +43,23 @@ If you see similar messages above, it means that you successfully connect to the
 You can try playing around with some commands like me:
 ```
 ls 
-
 mkdir hello
-
 cd ..  or  cd ~
-
-cp ssh-key.txt hello
-
+cp filename hello
 ```
 ![pic](report1 images/3.png)
 
 ![pic](report1 images/4.png)
 
 
-
-
 # Moving Files with scp:
 
 Next, you will learn how to copy a file from your pc to the server, by using the “scp” command.
 
-(Remember to use “exit” or Ctrl+D to return to your device)
+(Remember to use ```exit``` or Ctrl+D to return to your device)
 ```
 scp filename cs15lwi22zz@ieng6.ucsd.edu:~/
 ```
-
 ![pic](report1 images/5.png)
 
 And log back into the server to check the file:
