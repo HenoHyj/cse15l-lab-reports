@@ -86,6 +86,7 @@ If you are Windows system, please definitely follow what I did following:
 First, type in ```ssh-keygen``` in the terminal
 
 ![pic](report1 images/8.png)
+
 Please directly copy the path from your file explorer, so it can correctly recognize the file path.
 (I have this ```Overwrite (y/n)?``` notice because I'm re-doing this process, if you are setting it for the first time, you would not see such information)
 
@@ -93,7 +94,9 @@ Then it will ask you to set a passphrase, follow its instruction and type your o
 (The password content won't show up like when you are connecting to the remote server)
 
 Here's the extra steps for Windows system:
+
 Type in the following commands in sequence: 
+
 ```Get-Service ssh-agent | Set-Service -StartupType Manual``` 
 
 ```Start-Service ssh-agent``` 
@@ -103,6 +106,7 @@ Type in the following commands in sequence:
 ```ssh-add C:\Users\Username\.ssh\id_rsa```
 
 and type in the password you just set when it asks you for the passphrase
+
 ![pic](report1 images/9.png)
 
 Then, you log back into the server to create a new directory by using the command ```mkdir .ssh```
@@ -117,7 +121,9 @@ Thus, you should be able to communicate with the remote server when you are stil
 
 Now you can see that you are no longer need type your password every time to communicate with the server from the client.
 Try this command on your own device(the client) ```scp filename cs15lwi22zz@ieng6.ucsd.edu:~/``` 
+
 ![pic](report1 images/11.png)
+
 You'll surprisingly find that you don't have to type in the password this time, which is the same when you run ```ssh cs15lwi22zz@ieng6.ucsd.edu:~/```
 
 Let's count keystrokes to prove that we do save the time after setting the ssh key:
@@ -130,4 +136,5 @@ If you sometimes mistype your password, you will waste more time to type in the 
 
 You can also use semicolons to divide several commands that you want to run in the same line:
 ```cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI```
+
 ![pic](report1 images/12.png)
