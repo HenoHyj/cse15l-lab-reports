@@ -11,8 +11,10 @@ Cool Link:
 # Installing VS Code:
 
 Google “VS Code”, find the official website, and download the .exe file of corresponding controlling system to your computer. Then click it and follow the steps to complete the installation.
+
 This is what Visual Studio Code's official website looks like:
 ![pic](report1 images/0.png)
+
 Here's the link for downloading Win64x version VS Code:
 [VS Code Download](https://code.visualstudio.com/docs/?dv=win64user)
 
