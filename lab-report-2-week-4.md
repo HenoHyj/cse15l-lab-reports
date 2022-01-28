@@ -61,7 +61,7 @@ when ```markdown.substring()``` is called, the StringIndexOutOfBoundsException w
 
 Code Change:
 
-![pic](report2 image/image5.png)
+![pic](report2 images/image5.png)
 
 The __failure inducing input__ that prompts to make this change:
 
