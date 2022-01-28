@@ -1,3 +1,5 @@
+[My Index Page](https://henohyj.github.io/cse15l-lab-reports/index.html)
+
 # Case 1:
 
 Code change:
