@@ -85,3 +85,6 @@ The __bug__ in the code is that it doesn't check if the text inside the legal pa
 link format; and the __failure inducing input__ is "This is not a link" inside the legal parentheses.
 The updated code will now check the content inside the legal parentheses and ensure it's in a common 
 website link format (like "https://"), then adds the content into the output.
+
+
+[Final Version Code of Solving All 3 Bugs](https://github.com/HenoHyj/markdown-parse/blob/main/MarkdownParse.java)
