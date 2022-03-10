@@ -38,6 +38,15 @@ Okay, there is just an image link in this markdown file, and normally for our im
 should be excluded from the output. Hence, for this test, my implementation is correct, for it didn't include the image link in the output, while Joe's 
 version is incorrect for this test.
 
+Fix: Joe's implementation should add a check to ! before an open bracket, like I did in my code:
+
+![pic](report5 images/10.png)
+
+in the place after this if:
+
+![pic](report5 images/11.png)
+
+
 
 # Test 2
 
@@ -66,7 +75,7 @@ We can see that the inconsistency happens at ```test-files/488.md```, so let's c
 
 
 There is a legal website link in this markdown file, with "</my uri>" inside the parentheses. 
-By pasting this link into CommonMark demo site, we can now know that this "</my uri>" should be included in the output:
+By pasting this link into [CommonMark demo site](https://spec.commonmark.org/dingus/), we can now know that this "</my uri>" should be included in the output:
 
 ![pic](report5 images/9.png)
 
@@ -74,3 +83,12 @@ By pasting this link into CommonMark demo site, we can now know that this "</my 
 Hence, for this test, my implementation is correct: it successfully prints an output "[</my uri>]". But for Joe's code, it doesn't
 count this link as a legal link, so it only prints out an empty array.
 
+Fix: Joe's implementation checks if there are any spaces inside the parentheses, and "</my uri>" does have a space.
+
+![pic](report5 images/12.png)
+
+
+However, by the output we get from CommonMark demo site, shown above, we can see that somehow a pair of "<" and ">" can omit
+the spaces inside them, making the message inside to be recognized as a website link even if it contains spaces.
+So, for Joe's implementation, it should add an if to check if the spaces are inside a pair of "<" and ">". 
+If so, this ```potentialLink``` should be added to ```toReturn```.
