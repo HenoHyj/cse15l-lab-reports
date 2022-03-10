@@ -12,7 +12,7 @@ Now, Let's pick two tests that have different outputs
 
 # Test 1
 
-This is the first test I wanna discuss about:
+This is the first test I want to discuss about:
 
 ![pic](report5 images/1.png)
 
@@ -41,7 +41,7 @@ version is incorrect for this test.
 
 # Test 2
 
-This is the first test I wanna discuss about:
+This is the second test I want to discuss about:
 
 ![pic](report5 images/5.png)
 
