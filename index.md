@@ -14,7 +14,7 @@ Try Bold: **Bold**
 
 [CSE15L Lab Report 4 - Week 8](https://henohyj.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
-[CSE15L Lab Report 4 - Week 8](https://henohyj.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
+[CSE15L Lab Report 5 - Week 10](https://henohyj.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
 
 Heading 2
 ---------
